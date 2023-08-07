@@ -61,5 +61,5 @@ function factorial(number) {
     return factorial(number - 1) * number;
 }
 
-console.log(`факториал числа 0 = ${factorial(0)}`);
-console.log(`факториал числа 4 = ${factorial(4)}`);
+console.log(`Факториал числа 0 = ${factorial(0)}`);
+console.log(`Факториал числа 4 = ${factorial(4)}`);

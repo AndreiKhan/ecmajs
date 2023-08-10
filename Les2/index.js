@@ -61,13 +61,6 @@ MyStudent2.displayInfo();
 // Класс должен иметь методы для добавления нового клиента, открытия нового счета для клиента, 
 // пополнения счета, снятия денег со счета и проверки баланса.
 
-class BankAccount {
-    constructor(accountNumber, balance) {
-        this.accountNumber = accountNumber;
-        this.balance = balance;
-    }
-}
-
 class Bank {
     constructor(bankName) {
         this.bankName = bankName;

@@ -7,24 +7,24 @@
 // Метод displayInfo() - переопределяет метод displayInfo() родительского класса и выводит информацию о менеджере (имя и отдел).
 
 class Employee {
-    displayInfo() {
-        console.log(`Name: ${this.name}`);
-    }
-
     constructor(name) {
         this.name = name;
+    }
+    
+    displayInfo() {
+        console.log(`Name: ${this.name}`);
     }
 }
 
 class Manager extends Employee{
-    displayInfo() {
-        console.log(`Name: ${this.name}\nDepartment: ${this.department}`);
-    }
-
     constructor(name, department) {
         super();
         this.name = name;
         this.department = department;
+    }
+
+    displayInfo() {
+        console.log(`Name: ${this.name}\nDepartment: ${this.department}`);
     }
 }
 
